@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contacto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoContacto"
+        android:layout_marginBottom="15dp"/>
+
+    <TableLayout
+        android:id="@+id/tablaContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#acc6a7">
+        <TextView
+            android:id="@+id/form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rellene" />
+
+        <TextView
+            android:id="@+id/labelCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cliente" />
+
+        <EditText
+            android:id="@+id/cliente"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:id="@+id/labelEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empresa" />
+
+        <EditText
+            android:id="@+id/empresa"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:id="@+id/labelDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+
+        <EditText
+            android:id="@+id/direccions"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:id="@+id/labelTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:id="@+id/labelMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:id="@+id/labelComentarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comentarios" />
+
+        <EditText
+            android:id="@+id/comentarios"
+            android:layout_height="30dp"
+            android:layout_width="50dp"/>
+
+        <FrameLayout
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_gravity="end"
+                android:background="#7ba575"
+                android:text="@string/enviar" />
+        </FrameLayout>
+
+    </TableLayout>
+
+    <FrameLayout
+        android:onClick="onClickLlamada"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:background="#66a05b">
+
+        <ImageView
+            android:layout_gravity="start"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/telefono"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="@string/numTelefono" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

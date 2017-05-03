@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Recoil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nombreEmpresa">RECOIL</string>
+
+    <string name="r">R</string>
+
+    <string name="raya">_______</string>
+
+    <string name="resto">ecoil</string>
+
+    <string name="textoInicial">Somos RECOGIDAS DEL ACEITE S.L., una empresa joven y preocupada por el medio ambiente. Nuestro nombre comercial es RECOIL.\n\n
+Nuestro objetivo es aportar soluciones, tanto para los hogares como para el sector hostelero, en el reciclaje de aceites vegetales y evitar que estos se viertan en los desagües y alcantarillados.\n\n
+En RECOIL nos reciclamos días a día:\nNuesta planta central cuenta con la última tecnología para el almacenaje, gestión y tratamiento de estos residuos.</string>
+
+
+    <string name="enviar">Enviar</string>
+    
+    
+    <string name="textoContacto">Si necesitas que un comercial se ponga en contacto con usted rellene el siguiente formulario.\nSi no es cliente nuestro todavía rellene este formulario y contactaremos con usted</string>
+
+    <string name="rellene">Rellene el siguiente formulario:</string>
+    <string name="cliente">Número de cliente:</string>
+    <string name="empresa">Nombre del establecimiento:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="mail">Email:</string>
+    <string name="comentarios">Comentarios:</string>
+    <string name="numTelefono">918 435 701</string>
+    <string name="direccion">Dirección</string>
+
+
+
+    <string name="textoRecogida">Si necesita que pasemos a recogerle su aceite usado rellene los siguientes campos y si todavía no es cliente nuestro rellene los datos y nos pondremos en contacto con usted.</string>
+
+    <string name="peticion">Petición de recogida</string>
+
+    <string name="textoPuntos">Rellena este formulario y le enviaremos la cantidad de puntos que tienes acumulados de la forma que tu elijas: email, móvil, teléfono,sms o WhatsApp</string>
+
+</resources>
